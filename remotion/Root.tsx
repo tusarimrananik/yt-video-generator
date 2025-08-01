@@ -1,14 +1,18 @@
+// Root.tsx
 import { Composition } from 'remotion';
+import { NewsScenes } from './NewsScenes';
 
-export const RemotionRoot = () => {
+export const RemotionRoot: React.FC = () => {
   return (
-    <Composition
-      id="ProgrammingTimeline"
-      component={ProgrammingTimeline}
-      durationInFrames={30 * 9} // 9 entries in data × 1 second per entry
-      fps={30}
-      width={1080}
-      height={1920}
-    />
+    <>
+      <Composition
+        id="NewsVideo"
+        component={NewsScenes}
+        durationInFrames={150 * 5}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+    </>
   );
 };

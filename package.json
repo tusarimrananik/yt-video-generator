@@ -11,6 +11,7 @@
     "@remotion/renderer": "4.0.327",
     "@remotion/zod-types": "4.0.327",
     "express": "5.1.0",
+    "googleapis": "^154.1.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "remotion": "4.0.327",
